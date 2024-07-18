@@ -47,10 +47,12 @@
 }
 
 .row4 {
+  display: flex;
   /*flex:1;*/
   flex: 28%;
   justify-content: center; /* align horizontal */
   align-items: center; /* align vertical */
+
 }
 .westernLogo {
   width: auto;
