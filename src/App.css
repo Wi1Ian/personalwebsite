@@ -10,13 +10,20 @@
 
 }
 .row1{
-  flex:70%;
+  display: flex;
+  flex:66%;
   /*height: 50%;*/
+
 }
 .row2{
-  flex: 30%;
-  align-items: flex-end;
+  display: flex;
+  flex: 20%;
+  /*align-items: flex-end;*/
+  justify-content: center; /* align horizontal */
+  /*align-items: center; !* align vertical *!*/
+
 }
+
 .intro{
   font-family: "Inter Semi Bold", sans-serif;
   color: #bebda7;
