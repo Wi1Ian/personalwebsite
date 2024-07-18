@@ -31,9 +31,9 @@
   border-radius: 50%;
 }
 .row3 {
-  /*flex:72%;*/
+  flex:72%;
   align-items: flex-start;
-  flex:2.56;
+  /*flex:2.56;*/
 }
 
 .school{
@@ -47,7 +47,8 @@
 }
 
 .row4 {
-  flex:1;
+  /*flex:1;*/
+  flex: 28%;
   justify-content: center; /* align horizontal */
   align-items: center; /* align vertical */
 }
