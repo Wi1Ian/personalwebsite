@@ -1,0 +1,62 @@
+#root{
+}
+.body{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  flex-direction: row;
+  min-height: calc(100vh - 1em);
+
+}
+.row1{
+  flex:70%;
+  /*height: 50%;*/
+}
+.row2{
+  flex: 30%;
+  align-items: flex-end;
+}
+.intro{
+  font-family: "Inter Semi Bold", sans-serif;
+  color: #bebda7;
+  font-size: 15rem;
+  margin: 0;
+  padding: 0;
+}
+.imageOfJay{
+  width: auto;
+  height: 80%;
+  border: 0.3em solid #bebda7;
+  border-radius: 50%;
+}
+.row3 {
+  /*flex:72%;*/
+  align-items: flex-start;
+  flex:2.56;
+}
+
+.school{
+  font-family: "Inter Semi Bold", sans-serif;
+  color: #4f2682;
+  font-size:7rem;
+  /*text-align: center;*/
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.row4 {
+  flex:1;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
+.westernLogo {
+  width: auto;
+  height: 80%;
+}
+.row5 {
+  flex:100%;
+  margin-top: auto;
+  overflow-y: hidden;
+}
