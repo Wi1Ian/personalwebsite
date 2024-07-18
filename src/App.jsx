@@ -1,6 +1,10 @@
 import './App.css'
 import personalPhoto from './assets/introphoto.png'
 import westernLogo from './assets/Western-University-Logo.png'
+import linkedinLogo from './assets/LinkedIn_logo_initials.png'
+import githubLogo from './assets/Screenshot 2024-07-18 015349.png'
+import spotifyLogo from './assets/images.jpg'
+
 function App() {
 
   return (
@@ -19,7 +23,9 @@ function App() {
               <img src={westernLogo} alt={'UWO'} className={"westernLogo"}></img>
           </div>
           <div className="row5">
-              <p>filler</p>
+              <a href={"https://www.linkedin.com/in/jay-verma-17762123a/"} target="_blank"><img src={linkedinLogo} alt={'Linkdin'} className={"Linkdinlogo"}></img></a>
+              <a href={"https://github.com/Wi1Ian"} target="_blank"><img src={githubLogo} alt={'Linkdin'} className={"Linkdinlogo"}></img></a>
+              <a href={"https://open.spotify.com/user/ovqu9cs72wpjbxo85r2hhibw9?si=72e00f01738147a8"} target="_blank"><img src={spotifyLogo} alt={'Linkdin'} className={"Linkdinlogo"}></img></a>
           </div>
       </div>
     </>

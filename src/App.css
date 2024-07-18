@@ -68,5 +68,8 @@
 .row5 {
   flex:100%;
   margin-top: auto;
-  overflow-y: hidden;
+}
+.Linkdinlogo {
+  width: 3%;
+  height: 3%;
 }
