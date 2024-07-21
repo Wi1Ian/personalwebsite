@@ -8,7 +8,7 @@ import spotifyLogo from '../assets/images.jpg'
 export default function projectpage() {
     return (
         <>
-            <header />
+            {/*<header />*/}
             <div className="body">
                 <div className="header">
                     <div className="dropdown">
