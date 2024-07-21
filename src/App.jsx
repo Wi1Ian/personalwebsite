@@ -1,6 +1,6 @@
 import {BrowserRouter, Routes, Route} from "react-router-dom";
-import Home from "src/pages/homepage.jsx";
-import Project from "src/pages/projectpage.jsx"
+import Home from "./pages/homepage.jsx";
+import Project from "./pages/projectpage.jsx"
 
 export default function App() {
     return(
@@ -8,6 +8,7 @@ export default function App() {
             <BrowserRouter>
                 <Routes>
                     <Route index element={<Home />} />
+                    <Route path="/home" element={<Home />} />
                     <Route path="/project" element={<Project />} />
                 </Routes>
             </BrowserRouter>
