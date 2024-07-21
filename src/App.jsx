@@ -1,20 +1,16 @@
-import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import HomePage from "./HomePage";
+import {BrowserRouter, Routes, Route} from "react-router-dom";
+import Home from "src/pages/homepage.jsx";
+import Project from "src/pages/projectpage.jsx"
 
-
-function App() {
-    return (
-        <Router>
-            <HomePage />
-            <div>
-                <Switch>
-
-                    <Route exact path="/" element={<HomePage />} />
-                </Switch>
-            </div>
-        </Router>
-    );
+export default function App() {
+    return(
+        <div>
+            <BrowserRouter>
+                <Routes>
+                    <Route index element={<Home />} />
+                    <Route path="/project" element={<Project />} />
+                </Routes>
+            </BrowserRouter>
+        </div>
+    )
 }
-
-export default App;

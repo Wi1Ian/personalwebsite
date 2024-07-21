@@ -1,13 +1,14 @@
 import './HomePage.css'
-import personalPhoto from './assets/introphoto.png'
-import westernLogo from './assets/Western-University-Logo.png'
-import linkedinLogo from './assets/LinkedIn_logo_initials.png'
-import githubLogo from './assets/Screenshot 2024-07-18 015349.png'
-import spotifyLogo from './assets/images.jpg'
-function HomePage() {
-
+import '../components/header.jsx'
+import personalPhoto from '../assets/introphoto.png'
+import westernLogo from '../assets/Western-University-Logo.png'
+import linkedinLogo from '../assets/LinkedIn_logo_initials.png'
+import githubLogo from '../assets/Screenshot 2024-07-18 015349.png'
+import spotifyLogo from '../assets/images.jpg'
+export default function HomePage() {
     return (
         <>
+            <header />
             <div className="body">
                 <div className="header">
                     <div className="dropdown">
@@ -42,5 +43,3 @@ function HomePage() {
         </>
     )
 }
-
-export default HomePage
