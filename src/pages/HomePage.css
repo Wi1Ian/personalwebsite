@@ -32,7 +32,6 @@
     padding: 0;
 }
 .imageOfJay{
-    display: flex;
     width: auto;
     height: 80%;
     border: 0.3em solid #bebda7;
