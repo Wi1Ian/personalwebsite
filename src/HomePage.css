@@ -1,0 +1,107 @@
+#root{
+}
+.body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    flex-direction: row;
+    min-height: calc(100vh - 1em);
+
+}
+.header {
+    display: flex;
+    flex:100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 1.5vw;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    right: 0;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.content {
+    /*color: white;*/
+    font-size: 1em;
+}
+.menu {
+    color: white;
+    margin-right: .2em;
+}
+.row1{
+    display: flex;
+    flex:66%;
+    /*height: 50%;*/
+
+}
+.row2{
+    display: flex;
+    flex: 20%;
+    /*align-items: flex-end;*/
+    justify-content: center; /* align horizontal */
+    /*align-items: center; !* align vertical *!*/
+
+}
+
+.intro{
+    font-family: "Inter Semi Bold", sans-serif;
+    color: #bebda7;
+    font-size: 15rem;
+    margin: 0;
+    padding: 0;
+}
+.imageOfJay{
+    width: auto;
+    height: 80%;
+    border: 0.3em solid #bebda7;
+    border-radius: 50%;
+}
+.row3 {
+    flex:72%;
+    align-items: flex-start;
+    /*flex:2.56;*/
+}
+
+.school{
+    font-family: "Inter Semi Bold", sans-serif;
+    color: #4f2682;
+    font-size:7rem;
+    /*text-align: center;*/
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.row4 {
+    display: flex;
+    /*flex:1;*/
+    flex: 28%;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+
+}
+.westernLogo {
+    width: auto;
+    height: 80%;
+}
+.row5 {
+    flex:100%;
+    margin-top: auto;
+}
+.Linkdinlogo {
+    width: 5em;
+    height: 5em;
+}
