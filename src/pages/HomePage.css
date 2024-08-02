@@ -30,6 +30,7 @@
     font-size: 15rem;
     margin: 0;
     padding: 0;
+    justify-content: center;
 }
 .imageOfJay{
     max-width: 80%;
