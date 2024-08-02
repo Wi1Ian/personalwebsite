@@ -1,5 +1,6 @@
 import './header.css'
 import 'bulma/css/bulma.css';
+import {Link} from "react-router-dom";
 
 export default function Header() {
 
@@ -18,9 +19,12 @@ export default function Header() {
                 <div className="dropdown-menu" id="dropdown-menu6" role="menu">
                     <div className="dropdown-content">
                         <div className="dropdown-item">
-                            <p>
-
-                            </p>
+                            <Link to="/home"><p>
+                                Home
+                            </p></Link>
+                            <Link to="/project"><p>
+                                Projects
+                            </p></Link>
                         </div>
                     </div>
                 </div>
