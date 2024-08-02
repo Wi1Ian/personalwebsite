@@ -31,6 +31,7 @@
     margin: 0;
     padding: 0;
     justify-content: center;
+    text-align: center;
 }
 .imageOfJay{
     max-width: 80%;
