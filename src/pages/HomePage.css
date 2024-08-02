@@ -33,7 +33,7 @@
 }
 .imageOfJay{
     width: auto;
-    min-height: 80%;
+    max-height: 80%;
     border: 0.3em solid #bebda7;
     border-radius: 50%;
 }
