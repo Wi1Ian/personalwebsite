@@ -19,10 +19,11 @@ export default function Header() {
                 <div className="dropdown-menu" id="dropdown-menu6" role="menu">
                     <div className="dropdown-content">
                         <div className="dropdown-item">
-                            <Link to="/home"><p>
+                            <Link to="/home" className="text"><p>
                                 Home
                             </p></Link>
-                            <Link to="/project"><p>
+                            <hr className="dropdown-divider"/>
+                            <Link to="/project" className="text"><p>
                                 Projects
                             </p></Link>
                         </div>
