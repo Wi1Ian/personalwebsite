@@ -25,7 +25,7 @@
 
 .intro{
     font-family: "Inter Semi Bold", sans-serif;
-    color: #bebda7;
+    color: #e2d9d0;
     font-size: 15rem;
     margin: 0;
     padding: 0;
@@ -36,7 +36,7 @@
 .imageOfJay{
     /*max-width: 80%;*/
     /*max-height: 80%;*/
-    border: 0.3em solid #bebda7;
+    border: 0.3em solid #e2d9d0;
     border-radius: 50%;
     width: 50%;
     text-align: center;

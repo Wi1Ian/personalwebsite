@@ -18,7 +18,7 @@ export default function homepage() {
                     <img src={personalPhoto} alt={'image of me'} className={"imageOfJay"}></img>
                 </div>
                 <div className="row3">
-                    <h1 className="school"> Future computer science student at </h1>
+                    <h1 className="school">Computer science student at </h1>
                 </div>
                 <div className="row4">
                     <img src={westernLogo} alt={'UWO'} className={"westernLogo"}></img>
